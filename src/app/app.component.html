@@ -1,5 +1,1 @@
-<div class="row">
-  <div class="col-xs-12 text-center">
-    <h1>App's Working!</h1>
-  </div>
-</div>
+<app-post *ngFor="let post of posts" [content]="post.body" [title]="post.title"></app-post>
